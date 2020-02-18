@@ -14,7 +14,7 @@
 # CHAIN variable below
 
 # change the following variables to match your new coin
-COIN_NAME="PupyCoin"
+COIN_NAME="PuppyCoin"
 COIN_UNIT="PUPY"
 # 42 million coins at total (litecoin total supply is 84000000)
 TOTAL_SUPPLY=42000000
@@ -26,7 +26,7 @@ PUBKEY_CHAR="47"
 # number of blocks to wait to be able to spend coinbase UTXO's
 COINBASE_MATURITY=100
 # leave CHAIN empty for main network, -regtest for regression network and -testnet for test network
-CHAIN="-regtest"
+CHAIN=""
 # this is the amount of coins to get as a reward of mining the block of height 1. if not set this will default to 50
 #PREMINED_AMOUNT=100000
 
@@ -34,7 +34,7 @@ CHAIN="-regtest"
 GENESIS_REWARD_PUBKEY=04CD4FEA1D9C560A71ED37626ACCBD5637B4D9193806746B745B45827E77626684DFEAFAB83BD951B0AD2E4C6C2995660ECBF793D6A6736DAF162D4320C89C01D5
 
 # dont change the following variables unless you know what you are doing
-LITECOIN_BRANCH=0.14
+LITECOIN_BRANCH=0.18
 GENESISHZERO_REPOS=https://github.com/lhartikk/GenesisH0
 LITECOIN_REPOS=https://github.com/litecoin-project/litecoin.git
 LITECOIN_PUB_KEY=040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9
